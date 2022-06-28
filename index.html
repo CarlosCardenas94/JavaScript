@@ -1,0 +1,183 @@
+<script>
+    /* Tipos de datos:
+    undefined, null, boolean, string, Symbol, Number y object. 
+    */
+
+    var miNombre = "Carlos";
+    let miApellido = "Cardenas";
+    const miEdad = 28;
+
+    //console.log(miNombre);
+
+
+    //console.log(miApellido);
+
+    //Asignar variables
+
+    var a;
+    var b = 2;
+
+    //console.log(a); // undefined se asigna por defecto.
+    //console.log(b); // number
+
+    a = 10; 
+
+    //console.log(a);
+
+    //Asignar un variable a otra variable
+
+    var c = 5;
+    var d = c;
+
+    //console.log(c);
+    //console.log(d);
+
+    var c = 10;
+    var d;
+
+    d = c;
+
+    //console.log(d);
+    //console.log(c);
+
+    //Inicializar variables
+
+    var x = 10; //Inicializar variable x.
+
+    var miIdioma = "Español"; //Inicializar variable miIdioma.
+
+    //Variables no inicilializadas.
+
+    var a;
+    var b;
+    //console.log(a); // undefined
+    a = 56;
+    //console.log(a); // number
+
+    //Case-sensitive
+    var miVariable = 5;
+    //console.log(mivariable); // Error de referencia.
+    //console.log(miVariable); // Debe ser la convinación exacta de mayusculas y minusculas.
+
+    //Operaciones aritmeticas
+
+    var suma = 7 + 12;
+    //console.log(suma);
+
+    var resta = 15 - 5;
+    //console.log(resta);
+    resta = 5 - 15;
+    //console.log(resta);
+    resta = 15 - 15;
+    //console.log(resta);
+
+    var producto = 5 * 3;
+    //console.log(producto);
+    producto = 9 * 0;
+    //console.log(producto);
+    producto = -5 * 6;
+    //console.log(producto);
+
+    var cociente = 20 / 2;
+    //console.log(cociente);
+    cociente = 17 / 31;
+    //console.log(cociente);
+    cociente = 3 / 0; // Javascript no tiene una excepción de división por cero asi qu retorna infinity.
+    //console.log(cociente);
+
+    //Decimales
+    var miNumeroDecimal = 23.4;
+
+    var peso = 78.34; //Dependiendo de la configuración del sistema es , o .
+    
+    var producto = 3.4 * 10.4;
+    //console.log(producto);
+
+    producto = 2.4 * 4;
+    //console.log(producto);
+    
+    producto = 6 * 8.9;
+    //console.log(producto);
+
+    cociente = 5.0 / 2.0; // Se debe usar el punto para que sepamos que estamos trabajando con decimales.
+    //console.log(cociente);
+    cociente = 2.3 / 6.7;
+    //console.log(cociente);
+
+    //Resto de una división
+
+    var resto = 15 % 5;
+    //console.log(resto);
+    resto = 5 % 4;
+    //console.log(resto);
+
+    //Incremento de una variable en uno
+    var librosComprados = 105;
+    //console.log(librosComprados);
+
+    //opcion 1
+    librosComprados = librosComprados + 1;
+    //console.log(librosComprados);
+
+    //opcion 2
+    librosComprados++; //Incremento de una variable en uno.
+    //console.log(librosComprados);
+
+    //Reducir el valor de una variable en uno
+    var numeroDeEstudiantes = 256;
+    //console.log(numeroDeEstudiantes);
+
+    //opcion 1
+    numeroDeEstudiantes = numeroDeEstudiantes - 1;
+    //console.log(numeroDeEstudiantes);
+
+    //opcion 2
+    numeroDeEstudiantes--; //Reducir una variable en uno.
+    //console.log(numeroDeEstudiantes);
+
+    //Incrementar variables en más de uno
+    var a = 23;
+    
+    //opcion 1
+    a = a + 5;
+    //console.log(a);
+
+    //opcion 2
+    a += 5;
+    //console.log(a);
+
+    //Ejemplo de incremento de una variable en más de uno
+    var totalVentas = 13567.34;
+    //console.log(totalVentas);
+    totalVentas += 345.67;
+    //console.log(totalVentas);
+
+    //Ejemplo de reducción de una variable en más de uno
+    var totalDeudas = 2446;
+    //console.log(totalDeudas);
+    totalDeudas -= 345;
+    //console.log(totalDeudas);
+
+
+    //Asignacioon compuesta de multiplicación
+    var c = 23;
+
+    c *= 2;
+    //Ejemplo 
+    var salario = 45000;
+    //console.log(salario);
+    salario *= 5;
+    //console.log(salario);
+    
+    //Asignación compuesta de división
+    var d = 39;
+
+    d /= 3; //13
+    console.log(d);
+
+    //Ejemplo
+    salario /= 2;
+    console.log(salario);
+
+
+</script>
