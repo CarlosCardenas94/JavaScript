@@ -1,107 +1,126 @@
 <script>
-    //Variables con cadenas de caracteres.
+  //Variables con cadenas de caracteres.
 
-    var nombre = "Carlos"; //Tambien se pueden usar simples, pero hay una pequeña restricción.
-    var apellido = 'Cardenas'; //Lo importante es ser consistentes.
-    
+  var nombre = "Carlos"; //Tambien se pueden usar simples, pero hay una pequeña restricción.
+  var apellido = 'Cardenas'; //Lo importante es ser consistentes.
 
-    //Escapar comillas en cadenas de caracteres
 
-    //var miCadena = "Soy una cadena de caracteres con "comillas dobles""; //No se pueden usar comillas dobles dentro de comillas dobles.
+  //Escapar comillas en cadenas de caracteres
 
-    //De esta forma se puede escapar de este error o scape de la traducción en ingles.
+  //var miCadena = "Soy una cadena de caracteres con "comillas dobles""; //No se pueden usar comillas dobles dentro de comillas dobles.
 
-    var miCadena = "Soy una cadena de caracteres con \"comillas dobles\""; //Se usa la barra invertida en las comillas que se quieran incluir.
+  //De esta forma se puede escapar de este error o scape de la traducción en ingles.
 
-    //Cadena de caracteres con comillas simples.
-    var miMeta;
+  var miCadena = "Soy una cadena de caracteres con \"comillas dobles\""; //Se usa la barra invertida en las comillas que se quieran incluir.
 
-    miMeta = 'Aprender a programar con "Freecode"'; //Se pueden usar comillas simples dentro de comillas simples.
-    //console.log(miMeta);
+  //Cadena de caracteres con comillas simples.
+  var miMeta;
 
-    //Secuencias de scape
-/* 
-    Codigo | Resultado
-    -------------------
-    \'       Comilla simple
-    \"       Comilla doble
-    \\       Barra invertida
-    \n       Salto de línea
-    \r       Retorno de carro
-    \t       Tabulación
-    \b       Retroceso
-    \f       Formfeed
-    ...
-     */
+  miMeta = 'Aprender a programar con "Freecode"'; //Se pueden usar comillas simples dentro de comillas simples.
+  //console.log(miMeta);
 
-    //console.log("Estoy aprendiendo \"JavaScript\"");
-
-    //console.log("Estoy aprendiendo \\JavaScript\\");
-
-    //console.log("Estoy aprendiendo: \nJavaScript");
-
-    //console.log("Estoy aprendiendo: \bJavaScript");
-
-    //Concatenar cadenas de caracteres
-
-    var nombreCompleto = "Carlos" + " " + "Cardenas";
-
-    //console.log(nombreCompleto);
-
-    var verbo = "programar";
-
-    var mensaje = "Estoy aprendiendo a " + verbo + " con freecode";
-
-    
-
-    //console.log(mensaje);
-    var nombreCompleto = nombre + " " + apellido; //Concatenar cadenas.
-    //console.log(nombreCompleto);
-
-    var mensajeCompleto = "Estoy aprendiendo a programar ";
-    var parteFinal = "con freecode";
-
-    //console.log(mensajeCompleto);
-    
-    mensajeCompleto += parteFinal; //Concatenar cadenas.
-    //console.log(mensajeCompleto);
-
-    //Longitud de una cadena de caracteres
-    var miCadena;
-
-    miCadena = "Estoy aprendiendo a programar";
-
-    //console.log(miCadena.length);
-
-    var lenguajeDeProgramacion = "JavaScript";
-
-    /*
-    Cadena: J a v a S c r i p t
-    Índice: 0 1 2 3 4 5 6 7 8 9
+  //Secuencias de scape
+  /* 
+  Codigo | Resultado
+  -------------------
+  \'       Comilla simple
+  \"       Comilla doble
+  \\       Barra invertida
+  \n       Salto de línea
+  \r       Retorno de carro
+  \t       Tabulación
+  \b       Retroceso
+  \f       Formfeed
+  ...
     */
 
-    console.log(lenguajeDeProgramacion[0]); //Imprime la letra J.
-    console.log(lenguajeDeProgramacion[1]);
-    console.log(lenguajeDeProgramacion[2]); 
-    console.log(lenguajeDeProgramacion[3]);
-    console.log(lenguajeDeProgramacion[4]);
-    console.log(lenguajeDeProgramacion[5]);
-    console.log(lenguajeDeProgramacion[6]);
-    console.log(lenguajeDeProgramacion[7]);
-    console.log(lenguajeDeProgramacion[8]);
-    console.log(lenguajeDeProgramacion[9]);
-    console.log(lenguajeDeProgramacion[10]); //Undefined
-    //Inmutabilidad de cadenas de caracteres
+  //console.log("Estoy aprendiendo \"JavaScript\"");
 
-    var miCadena = "Jola, Mundo";
-    console.log(miCadena);
+  //console.log("Estoy aprendiendo \\JavaScript\\");
 
-    //miCadena[0] = "H"; //No se puede modificar una cadena de caracteres.
-    miCadena = "Hola, Mundo"; //Se puede modificar una cadena de caracteres.
-    console.log(miCadena);
+  //console.log("Estoy aprendiendo: \nJavaScript");
 
-    //Notación de corchetes Ultimo caracter.
-    
+  //console.log("Estoy aprendiendo: \bJavaScript");
+
+  //Concatenar cadenas de caracteres
+
+  var nombreCompleto = "Carlos" + " " + "Cardenas";
+
+  //console.log(nombreCompleto);
+
+  var verbo = "programar";
+
+  var mensaje = "Estoy aprendiendo a " + verbo + " con freecode";
+
+
+
+  //console.log(mensaje);
+  var nombreCompleto = nombre + " " + apellido; //Concatenar cadenas.
+  //console.log(nombreCompleto);
+
+  var mensajeCompleto = "Estoy aprendiendo a programar ";
+  var parteFinal = "con freecode";
+
+  //console.log(mensajeCompleto);
+
+  mensajeCompleto += parteFinal; //Concatenar cadenas.
+  //console.log(mensajeCompleto);
+
+  //Longitud de una cadena de caracteres
+  var miCadena;
+
+  miCadena = "Estoy aprendiendo a programar";
+
+  //console.log(miCadena.length);
+
+  var lenguajeDeProgramacion = "JavaScript";
+
+  /*
+  Cadena: J a v a S c r i p t
+  Índice: 0 1 2 3 4 5 6 7 8 9
+  */
+
+  console.log(lenguajeDeProgramacion[0]); //Imprime la letra J.
+  console.log(lenguajeDeProgramacion[1]);
+  console.log(lenguajeDeProgramacion[2]); 
+  console.log(lenguajeDeProgramacion[3]);
+  console.log(lenguajeDeProgramacion[4]);
+  console.log(lenguajeDeProgramacion[5]);
+  console.log(lenguajeDeProgramacion[6]);
+  console.log(lenguajeDeProgramacion[7]);
+  console.log(lenguajeDeProgramacion[8]);
+  console.log(lenguajeDeProgramacion[9]);
+  console.log(lenguajeDeProgramacion[10]); //Undefined
+  //Inmutabilidad de cadenas de caracteres
+
+  var miCadena = "Jola, Mundo";
+  console.log(miCadena);
+
+  //miCadena[0] = "H"; //No se puede modificar una cadena de caracteres.
+  miCadena = "Hola, Mundo"; //Se puede modificar una cadena de caracteres.
+  console.log(miCadena);
+
+  //Notación de corchetes Ultimo caracter.
+  var nuevaCadena;
+  /* El ultimo indice siempre es longitud -1 porque comenzamos
+  a contar desde 0.
+
+  nuevaCadena.length para "JavaScript" es 10.
+  por lo tanto el ultimo índice es 9.
+  */
+  nuevaCadena = "JavaScript";
+  var n = 2;
+  console.log(nuevaCadena[nuevaCadena.length - 1]); // Selecciona el ultimo índice.
+
+  //Notación de corchetes de derecha a izquierda.
+  
+
+  /* El penultimo índice es longitud -2 porque comenzamos
+  a contar de 0. 
+
+  */
+  console.log(nuevaCadena[nuevaCadena.length - 2]); // Selecciona el penultimo índice y asi sucesivamente
+  console.log(nuevaCadena[nuevaCadena.length - n]); // Selecciona el n indice que se indique en la variable.
 
 
 
